@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlTop">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Various online web tools such as proxy checker, proxy list, skype resolver, and more.">
+    <meta name="author" content="https://orca.tech">
+    <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
+    <title data-bind="text: versionNumber">OrcaTech Web Tools</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Menu CSS -->
+    <link href="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <!-- animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- color CSS -->
+    <link href="css/colors/blue-dark.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<script type="text/javascript" src="js/config.js"></script>
+<script> 
+
+document.title = document.title + " " + version;
+
+</script>
+
+<body class="fix-header">
+    <!-- ============================================================== -->
+    <!-- Preloader -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Wrapper -->
+    <!-- ============================================================== -->
+    <div id="wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <nav class="navbar navbar-default navbar-static-top m-b-0">
+            <div class="navbar-header">
+                <div class="top-left-part">
+					
+                    
+                    <!-- Logo -->
+                    <a class="logo" href="index.html">
+                        <!-- Logo icon image, you can use font-icon also -->
+                        <!--This is dark logo icon-->
+						<b>
+                        <!--This is dark logo icon--><img src="../plugins/images/admin-logo.png" alt="home" class="dark-logo" /><!--This is light logo icon-->
+                     </b>
+                        <!-- Logo text image you can use text also --><span class="hidden-xs">
+                        <!--This is dark logo text--><img width="175" src="OrcaTech-logo.png" alt="home" class="dark-logo" /><!--This is light logo text--><img width="175" src="OrcaTech-logo-white.png" alt="home" class="light-logo" />
+                     </span> </a>
+					 
+					 	
+                </div>
+                <!-- /Logo -->
+                <!-- Search input and Toggle icon -->
+                
+                <ul class="nav navbar-top-links navbar-right pull-right">
+					
+                    <li><a href="javascript:void(0)" class="open-close waves-effect waves-light visible-xs"><i class="ti-close ti-menu"></i></a></li>
+                    <li>
+                        <form action="http://www.google.com/search" method="get" role="search" class="app-search hidden-sm hidden-xs m-r-10">
+						
+							<input type="hidden" class="form-control" name="sitesearch" value="https://orca.tech"> 
+                            <input type="text" placeholder="Search..." class="form-control" name="q"> <a href=""><i class="fa fa-search"></i></a> </form>
+                    </li>
+                    <!-- /.dropdown -->
+                </ul>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- /.navbar-top-links -->
+            <!-- /.navbar-static-side -->
+        </nav>
+        <!-- End Top Navigation -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav slimscrollsidebar">
+                <div class="sidebar-head">
+                    <h3><span class="fa-fw open-close"><i class="ti-menu hidden-xs"></i><i class="ti-close visible-xs"></i></span> <span class="hide-menu">Navigation</span></h3> </div>
+                <ul class="nav" id="side-menu">
+				
+	<li> <a href="index.html" class="waves-effect"><i  class="mdi mdi-view-dashboard fa-fw"></i> <span class="hide-menu">Dashboard</span></a> </li>
+	
+                    <li> <a href="contact-us.html" class="waves-effect"><i  class="mdi mdi-email fa-fw"></i> <span class="hide-menu">Contact Us</span></a> </li>
+					
+					<li> <a href="https://discord.gg/cPYNcjb" class="waves-effect"><i  class="mdi mdi-discord fa-fw"></i> <span class="hide-menu">Discord Server</span></a> </li>
+					
+					<li> <a href="https://orca.tech/proxy/" class="waves-effect"><i  class="mdi mdi-internet-explorer fa-fw"></i> <span class="hide-menu">Proxy Browser</span></a> </li>
+					
+					<li> <a href="skype-resolver.html" class="waves-effect"><i  class="mdi mdi-skype fa-fw"></i> <span class="hide-menu">Skype Resolver</span></a> </li>
+										
+                    <li> <a href="#" class="waves-effect"><i class="mdi mdi-web fa-fw" data-icon="v"></i> <span class="hide-menu"> Web Proxies <span class="fa arrow"></span> <span class="label label-rouded label-inverse pull-right">2</span></span></a>
+                        <ul class="nav nav-second-level">
+                            <li> <a href="proxy-checker.html"><i class=" fa-fw">1</i><span class="hide-menu">Proxy Checker</span></a> </li>
+                            <li> <a href="proxy-lists.html"><i class=" fa-fw">2</i><span class="hide-menu">Proxy Lists</span></a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#" class="waves-effect"><i class="mdi mdi-security fa-fw" data-icon="v"></i> <span class="hide-menu"> Security Tools <span class="fa arrow"></span> <span class="label label-rouded label-inverse pull-right">5</span></span></a>
+                        <ul class="nav nav-second-level">
+						
+                            <li> <a href="hacked-database-search.html"><i class=" fa-fw">1</i><span class="hide-menu">Hacked DB Search</span></a> </li>
+							<li> <a href="aes-encrypter.html"><i class=" fa-fw">3</i><span class="hide-menu">AES Encrypter</span></a> </li>
+							<li> <a href="aes-decrypter.html"><i class=" fa-fw">4</i><span class="hide-menu">AES Decrypter</span></a> </li>
+                        </ul>
+                    </li>
+					
+					<li> <a href="https://bitmitigate.com" class="waves-effect"><i  class="mdi mdi-security-network fa-fw"></i> <span class="hide-menu">DDoS Protection</span></a> </li>
+					
+					<li> <a href="https://orca.tech" class="waves-effect"><i  class="mdi mdi-code-tags fa-fw"></i> <span class="hide-menu">Developer Website</span></a> </li>
+                </ul>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page Content -->
+        <!-- ============================================================== -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row bg-title">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="page-title">Dashboard</h4> </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="white-box">
+						<center>
+                            <h1 class="box-title">Welcome to OrcaTech Web Tools</h1>
+	<p>OrcaTech Web Tools is an online hub software tools that works right in your browser or on any mobile device. We have apps for iOS, android, and you can access this service directly with no downloads right in your web browser @ https://orca.tech/web-tools/. All of our tools are completely anonymous and secure to ensure you have the highest privacy. Our tools are used by hundreds of thousands of programmers and cyber security professionals throughout the world. This audience is also growing rapidly. We listen to our user base and are eager to improve our services. If you see any room for improvement on this website or know of a software out there that you think we could do better please contact us. We really do listen and care.</p>
+	</center>
+	
+	
+							</div>
+							
+                    </div>
+                </div>
+				
+				                <div class="row">
+                    <div class="col-md-12">
+                        <div class="white-box">
+						<center>
+                            <h1 class="box-title">News</h1>
+							<ul>
+							<li><b>7-26-2017:</b> This is the first initial release of the new OrcaTech web tools platform. We will be offering not only higher quality, but a wider selection of tools. We will be having apps in the app store, and overall just making a more professional user experience.</li> </p>
+	</center>
+	
+	
+							</div>
+							
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                <!-- .right-sidebar -->
+                
+                <!-- ============================================================== -->
+                <!-- End Right sidebar -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- /.container-fluid -->
+            <footer class="footer text-center"> 2017 &copy; OrcaTech Web Tools brought to you by <a href="https://orca.tech">https://orca.tech</a> </footer>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page Content -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="../plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Menu Plugin JavaScript -->
+    <script src="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+    <!--slimscroll JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.min.js"></script>
+	
+    <!--Style Switcher -->
+    <script src="../plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
+</body>
+
+</html>
